@@ -10,7 +10,11 @@ technologies.</p>
 <p>
 Please fill out the information below to create your General Assembly
 account. Let us know what city you're in and what course
-you're taking. This list is for all students. Please tell us what
+you're taking. This list is for all students. 
+
+<p/>
+
+<p>Please tell us what
 city you're in and whether you're taking the Immersive User Experience Design (UXDI)
 course, the Immersive Software Engineering course, or the Immersive Data Science course (DSI).
 
@@ -32,7 +36,7 @@ course, the Immersive Software Engineering course, or the Immersive Data Science
     <option value="Providence">Providence</option>
     <option value="Riyadh">Riyadh</option>
     <option value="San Francisco">San Francisco</option>
-    <option value="Seattle">Seattle</option>
+    <option selected="Seattle">Seattle</option>
     <option value="Singapore">Singapore</option>
     <option value="Stamford">Stamford</option>
     <option value="Sydney">Sydney</option>
@@ -44,37 +48,42 @@ course, the Immersive Software Engineering course, or the Immersive Data Science
   <input type="submit" value="Submit">
 </form>
 
+<div>
+  <label>Course:</label>
+<input type="radio" id="UI" name="UI" value="UI">UI/UX
 
-Course:
-  (0) UX
-  ( ) Web Dev
+<input type="radio" id="SEI/Web Dev" name="SEI/Web Dev" value="SEI/Web Dev">SEI/Web Dev
+</div>
+
+<br>
 
   <form action="file:///Users/animasupreme/Desktop/SEI_30/unit1/labs/html_user_inputs/success.html" method="POST">
     <div>
         <label>Name</label>
         <input type="text" name="name">
 </div>
-
+<br>
 <div>
     <label>Email</label>
     <input type="email" name="Email">
     </div>
-
+<br>
     <div>
         <label>Password</label>
         <input type="password" name="password">
         </div>
 
 
-      <div>
-          
-        <input type="checkbox" value="checkbox" name="Subscribe" value="subscribe"> </div>
-          
-          <p>Yes, subscribe me to the General Assembly student newsletter</p>
+     
+          <br>
         
+        <div>
+            <input type="checkbox" name="newsletter">
+            Yes, subscribe me to the General Assembly student newsletter
+          </div>
       
 
-
+<br>
 
 <div>
 <input type="submit" value="Subscribe">
