@@ -1,47 +1,85 @@
-general_assembly_logo.png
+<html><img src="general_assembly_logo.png">
 
-General Assembly Account Creation
+<h1>General Assembly Account Creation</h1>
+<body>
 
+  <p>
 Welcome to the General Assembly. General Assembly is a global
 institution training people all over the world in today's top
-technologies.
-
+technologies.</p>
+<p>
 Please fill out the information below to create your General Assembly
 account. Let us know what city you're in and what course
 you're taking. This list is for all students. Please tell us what
 city you're in and whether you're taking the Immersive User Experience Design (UXDI)
 course, the Immersive Software Engineering course, or the Immersive Data Science course (DSI).
 
-City:
-  Atlanta
-  Austin
-  Boston
-  Chicago
-  Dallas
-  Denver
-  Hong Kong
-  London
-  Los Angeles
-  Melbourne
-  New York
-  Providence
-  Riyadh
-  San Francisco
-  Seattle
-  Singapore
-  Stamford
-  Sydney
-  Toronto
-  Washington DC
+</p>
+<form action="">
+  <label for="city">City:</label>
+  <select id="cities" name="cities">
+    <option value="Atlanta">Atlanta</option>
+    <option value="Austin">Austin</option>
+    <option value="Boston">Boston</option>
+    <option value="Chicago">Chicago</option>
+    <option value="Dallas">Dallas</option>
+    <option value="Denver">Denver</option>
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="London">London</option>
+    <option value="Los Angeles">Los Angeles</option>
+    <option value="Melbourne">Melbourne</option>
+    <option value="New York">New York</option>
+    <option value="Providence">Providence</option>
+    <option value="Riyadh">Riyadh</option>
+    <option value="San Francisco">San Francisco</option>
+    <option value="Seattle">Seattle</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Stamford">Stamford</option>
+    <option value="Sydney">Sydney</option>
+    <option value="Toronto">Toronto</option>
+    <option value="Washington DC">Washington DC</option>
+   
+
+  </select>
+  <input type="submit" value="Submit">
+</form>
+
 
 Course:
   (0) UX
   ( ) Web Dev
 
-Name:     _________
-Email:    _________
-Password: *********
+  <form action="file:///Users/animasupreme/Desktop/SEI_30/unit1/labs/html_user_inputs/success.html" method="POST">
+    <div>
+        <label>Name</label>
+        <input type="text" name="name">
+</div>
 
-[] Yes, subscribe me to the General Assembly student newsletter
+<div>
+    <label>Email</label>
+    <input type="email" name="Email">
+    </div>
 
-[Subscribe]
+    <div>
+        <label>Password</label>
+        <input type="password" name="password">
+        </div>
+
+
+      <div>
+          
+        <input type="checkbox" value="checkbox" name="Subscribe" value="subscribe"> </div>
+          
+          <p>Yes, subscribe me to the General Assembly student newsletter</p>
+        
+      
+
+
+
+<div>
+<input type="submit" value="Subscribe">
+</div>
+    </form>
+
+</body>
+</html>
